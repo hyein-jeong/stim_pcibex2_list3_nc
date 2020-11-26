@@ -1381,7 +1381,7 @@ Template(GetTable("list3_test_cblock.csv"),
     .log( "condition_phrFreq", test_cb.condition_phrFreq)
 );
 
-Template(GetTable("list1_test_ncblock.csv"),
+Template(GetTable("list3_test_ncblock.csv"),
     test_ncb =>
     newTrial("test_ncb",
     
