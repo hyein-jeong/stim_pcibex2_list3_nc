@@ -325,11 +325,37 @@ newTrial("instruct_1_2_day2_general",
         .wait()
 );
 
-newTrial("instruct_2_prac_cblock",
+newTrial("instruct_2_prac_ncblock",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_2_prac_cblock.png")
+    newImage("pic_instruct", "instruct_2_prac_ncblock.png")
+        .size(1280, 720)
+        .print()
+    ,
+    newKey("space", " ")
+	.log()
+        .wait()
+);
+
+newTrial("instruct_prac_ncblock_fb",
+    defaultText
+        .print()
+    ,
+    newImage("pic_instruct", "day2_instruction_prac_ncblock_ans.png")
+        .size(1280, 720)
+        .print()
+    ,
+    newKey("space", " ")
+	.log()
+        .wait()
+);
+
+newTrial("instruct_3_ncblock_train1",
+    defaultText
+        .print()
+    ,
+    newImage("pic_instruct", "instruct_3_ncblock_train1.png")
         .size(1280, 720)
         .print()
     ,
@@ -339,11 +365,11 @@ newTrial("instruct_2_prac_cblock",
 );
 
 
-newTrial("instruct_3_cblock_train1",
+newTrial("instruct_4_pause_after_ncblock_train1",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_3_cblock_train1.png")
+    newImage("pic_instruct", "instruct_4_pause_after_ncblock_train1.png")
         .size(1280, 720)
         .print()
     ,
@@ -353,11 +379,11 @@ newTrial("instruct_3_cblock_train1",
 );
 
 
-newTrial("instruct_4_pause_after_cblock_train1",
+newTrial("instruct_5_prac_cblock",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_4_pause_after_cblock_train1.png")
+    newImage("pic_instruct", "instruct_5_prac_cblock.png")
         .size(1280, 720)
         .print()
     ,
@@ -366,12 +392,24 @@ newTrial("instruct_4_pause_after_cblock_train1",
         .wait()
 );
 
+newTrial("instruct_prac_cblock_fb",
+    defaultText
+        .print()
+    ,
+    newImage("pic_instruct", "day2_instruction_prac_cblock_ans.png")
+        .size(1280, 720)
+        .print()
+    ,
+    newKey("space", " ")
+	.log()
+        .wait()
+);
 
-newTrial("instruct_5_prac_ncblock",
+newTrial("instruct_6_cblock_train1",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_5_prac_ncblock.png")
+    newImage("pic_instruct", "instruct_6_cblock_train1.png")
         .size(1280, 720)
         .print()
     ,
@@ -380,25 +418,11 @@ newTrial("instruct_5_prac_ncblock",
         .wait()
 );
 
-
-newTrial("instruct_6_ncblock_train1",
+newTrial("instruct_7_pause_after_cblock_train1",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_6_ncblock_train1.png")
-        .size(1280, 720)
-        .print()
-    ,
-    newKey("space", " ")
-	.log()
-        .wait()
-);
-
-newTrial("instruct_7_pause_after_ncblock_train1",
-    defaultText
-        .print()
-    ,
-    newImage("pic_instruct", "instruct_7_pause_after_ncblock_train1.png")
+    newImage("pic_instruct", "instruct_7_pause_after_cblock_train1.png")
         .size(1280, 720)
         .print()
     ,
@@ -433,11 +457,11 @@ newTrial("instruct_8_2_ncblock_train2",
         .wait()
 );
 
-newTrial("instruct_8_2_pause_after_ncblock_train2",
+newTrial("instruct_8_2_pause_after_cblock_train2",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_8_2_pause_after_ncblock_train2.png")
+    newImage("pic_instruct", "instruct_8_2_pause_after_cblock_train2.png")
         .size(1280, 720)
         .print()
     ,
@@ -499,11 +523,11 @@ newTrial("instruct_8_4_ncblock_train4",
         .wait()
 );
 
-newTrial("instruct_8_4_pause_after_ncblock_train4",
+newTrial("instruct_8_4_pause_after_cblock_train4",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_8_4_pause_after_ncblock_train4.png")
+    newImage("pic_instruct", "instruct_8_4_pause_after_cblock_train4.png")
         .size(1280, 720)
         .print()
     ,
@@ -565,11 +589,11 @@ newTrial("instruct_8_6_ncblock_train6",
         .wait()
 );
 
-newTrial("instruct_8_6_pause_after_ncblock_train6",
+newTrial("instruct_8_6_pause_after_cblock_train6",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_8_6_pause_after_ncblock_train6.png")
+    newImage("pic_instruct", "instruct_8_6_pause_after_cblock_train6.png")
         .size(1280, 720)
         .print()
     ,
@@ -578,11 +602,11 @@ newTrial("instruct_8_6_pause_after_ncblock_train6",
         .wait()
 );
 
-newTrial("instruct_9_0_general_test",
+newTrial("instruct_9_0_general_test_nc",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_9_0_general_test.png")
+    newImage("pic_instruct", "instruct_9_0_general_test_nc.png")
         .size(1280, 720)
         .print()
     ,
@@ -591,11 +615,11 @@ newTrial("instruct_9_0_general_test",
         .wait()
 );
 
-newTrial("instruct_9_1_cblock_test",
+newTrial("instruct_9_1_ncblock_test",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_9_1_cblock_test.png")
+    newImage("pic_instruct", "instruct_9_1_ncblock_test.png")
         .size(1280, 720)
         .print()
     ,
@@ -604,11 +628,11 @@ newTrial("instruct_9_1_cblock_test",
         .wait()
 );
 
-newTrial("instruct_9_2_ncblock_test",
+newTrial("instruct_9_2_cblock_test",
     defaultText
         .print()
     ,
-    newImage("pic_instruct", "instruct_9_2_ncblock_test.png")
+    newImage("pic_instruct", "instruct_9_2_cblock_test.png")
         .size(1280, 720)
         .print()
     ,
@@ -629,7 +653,6 @@ newTrial("instruct_1_1_day2_cognitivetask1",
 	.log()
         .wait()
 );
-
 
 ////////////////////////////////////  templates for practice trials 
 
